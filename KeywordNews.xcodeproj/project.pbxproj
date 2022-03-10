@@ -205,6 +205,7 @@
 				AD00576E27DA17CA00BE102F /* Frameworks */,
 				AD00576F27DA17CA00BE102F /* Resources */,
 				AD0057AA27DA1CDF00BE102F /* SwfitLint */,
+				CECE83EEC8002F68A9ECD839 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,6 +247,7 @@
 				AD00578D27DA17CB00BE102F /* Sources */,
 				AD00578E27DA17CB00BE102F /* Frameworks */,
 				AD00578F27DA17CB00BE102F /* Resources */,
+				7C1003FB8ACC2D2A00FBE3E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,8 +292,8 @@
 			);
 			mainGroup = AD00576827DA17CA00BE102F;
 			packageReferences = (
-				AD0057A427DA187500BE102F /* XCRemoteSwiftPackageReference "SnapKit" */,
-				AD0057A727DA187F00BE102F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AD0057A427DA187500BE102F /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+				AD0057A727DA187F00BE102F /* XCRemoteSwiftPackageReference "Alamofire.git" */,
 			);
 			productRefGroup = AD00577227DA17CA00BE102F /* Products */;
 			projectDirPath = "";
@@ -354,6 +356,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7C1003FB8ACC2D2A00FBE3E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeywordNews-KeywordNewsUITests/Pods-KeywordNews-KeywordNewsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeywordNews-KeywordNewsUITests/Pods-KeywordNews-KeywordNewsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeywordNews-KeywordNewsUITests/Pods-KeywordNews-KeywordNewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AD0057AA27DA1CDF00BE102F /* SwfitLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,6 +411,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CECE83EEC8002F68A9ECD839 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeywordNews/Pods-KeywordNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeywordNews/Pods-KeywordNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeywordNews/Pods-KeywordNews-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE88B9A97D43336D47899E70 /* [CP] Check Pods Manifest.lock */ = {
@@ -771,7 +807,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AD0057A427DA187500BE102F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		AD0057A427DA187500BE102F /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -779,7 +815,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		AD0057A727DA187F00BE102F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		AD0057A727DA187F00BE102F /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -792,12 +828,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		AD0057A527DA187500BE102F /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AD0057A427DA187500BE102F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = AD0057A427DA187500BE102F /* XCRemoteSwiftPackageReference "SnapKit.git" */;
 			productName = SnapKit;
 		};
 		AD0057A827DA187F00BE102F /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AD0057A727DA187F00BE102F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = AD0057A727DA187F00BE102F /* XCRemoteSwiftPackageReference "Alamofire.git" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */

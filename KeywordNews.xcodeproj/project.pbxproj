@@ -22,6 +22,7 @@
 		AD0057A927DA187F00BE102F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AD0057A827DA187F00BE102F /* Alamofire */; };
 		AD0057AD27DA25BF00BE102F /* NewsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057AC27DA25BF00BE102F /* NewsListPresenter.swift */; };
 		AD0057B027DA25FD00BE102F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = AD0057AF27DA25FD00BE102F /* .swiftlint.yml */; };
+		AD0057B227DA29D800BE102F /* NewsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057B127DA29D800BE102F /* NewsListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		AD00579727DA17CB00BE102F /* KeywordNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AD0057AC27DA25BF00BE102F /* NewsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListPresenter.swift; sourceTree = "<group>"; };
 		AD0057AF27DA25FD00BE102F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		AD0057B127DA29D800BE102F /* NewsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewCell.swift; sourceTree = "<group>"; };
 		EB8BEA7222019EF1A6AE0A5A /* Pods_KeywordNews_KeywordNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeywordNews_KeywordNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16D69896A66208731FFE54C /* Pods-KeywordNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeywordNews.release.xcconfig"; path = "Target Support Files/Pods-KeywordNews/Pods-KeywordNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +178,7 @@
 			children = (
 				AD00577827DA17CA00BE102F /* NewsListViewController.swift */,
 				AD0057AC27DA25BF00BE102F /* NewsListPresenter.swift */,
+				AD0057B127DA29D800BE102F /* NewsListTableViewCell.swift */,
 			);
 			path = NewsList;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD00577927DA17CA00BE102F /* NewsListViewController.swift in Sources */,
+				AD0057B227DA29D800BE102F /* NewsListTableViewCell.swift in Sources */,
 				AD00577527DA17CA00BE102F /* AppDelegate.swift in Sources */,
 				AD00577727DA17CA00BE102F /* SceneDelegate.swift in Sources */,
 				AD0057AD27DA25BF00BE102F /* NewsListPresenter.swift in Sources */,

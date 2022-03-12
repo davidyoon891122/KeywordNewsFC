@@ -27,7 +27,6 @@ struct NewsSearchManager: NewsSearchManagerProtocol {
         guard let url = URL(string: "https://openapi.naver.com/v1/search/news.json") else { return }
         let parameters = NewsRequestModel(query: keyword, start: start, display: display)
         
-       
         
         let headers: HTTPHeaders = [
             "X-Naver-Client-Id": clientID,
@@ -43,7 +42,6 @@ struct NewsSearchManager: NewsSearchManagerProtocol {
             .responseDecodable(of: NewsResponseModel.self) { response in
                 switch response.result {
                 case .success(let result):
-                    print(result.items)
                     completionHandler(result.items)
                 case .failure(let error):
                     print(error)

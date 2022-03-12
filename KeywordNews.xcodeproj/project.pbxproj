@@ -28,6 +28,7 @@
 		AD0057B927DCACD100BE102F /* NewsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057B827DCACD100BE102F /* NewsRequestModel.swift */; };
 		AD0057BB27DCACDB00BE102F /* NewsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057BA27DCACDB00BE102F /* NewsResponseModel.swift */; };
 		AD0057BE27DCADBD00BE102F /* NewsSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057BD27DCADBD00BE102F /* NewsSearchManager.swift */; };
+		AD0057C127DCB65000BE102F /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057C027DCB65000BE102F /* String+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		AD0057B827DCACD100BE102F /* NewsRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRequestModel.swift; sourceTree = "<group>"; };
 		AD0057BA27DCACDB00BE102F /* NewsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponseModel.swift; sourceTree = "<group>"; };
 		AD0057BD27DCADBD00BE102F /* NewsSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSearchManager.swift; sourceTree = "<group>"; };
+		AD0057C027DCB65000BE102F /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		EB8BEA7222019EF1A6AE0A5A /* Pods_KeywordNews_KeywordNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeywordNews_KeywordNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16D69896A66208731FFE54C /* Pods-KeywordNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeywordNews.release.xcconfig"; path = "Target Support Files/Pods-KeywordNews/Pods-KeywordNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +158,7 @@
 				AD00577D27DA17CB00BE102F /* Assets.xcassets */,
 				AD00577F27DA17CB00BE102F /* LaunchScreen.storyboard */,
 				AD00578227DA17CB00BE102F /* Info.plist */,
+				AD0057C027DCB65000BE102F /* String+.swift */,
 			);
 			path = KeywordNews;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				AD0057BE27DCADBD00BE102F /* NewsSearchManager.swift in Sources */,
 				AD0057BB27DCACDB00BE102F /* NewsResponseModel.swift in Sources */,
 				AD00577527DA17CA00BE102F /* AppDelegate.swift in Sources */,
+				AD0057C127DCB65000BE102F /* String+.swift in Sources */,
 				AD0057B627DCA81700BE102F /* NewsWebViewController.swift in Sources */,
 				AD00577727DA17CA00BE102F /* SceneDelegate.swift in Sources */,
 				AD0057AD27DA25BF00BE102F /* NewsListPresenter.swift in Sources */,

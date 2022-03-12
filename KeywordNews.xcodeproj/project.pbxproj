@@ -25,6 +25,9 @@
 		AD0057B227DA29D800BE102F /* NewsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057B127DA29D800BE102F /* NewsListTableViewCell.swift */; };
 		AD0057B427DAA2BC00BE102F /* NewsListTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057B327DAA2BC00BE102F /* NewsListTableViewHeaderView.swift */; };
 		AD0057B627DCA81700BE102F /* NewsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057B527DCA81700BE102F /* NewsWebViewController.swift */; };
+		AD0057B927DCACD100BE102F /* NewsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057B827DCACD100BE102F /* NewsRequestModel.swift */; };
+		AD0057BB27DCACDB00BE102F /* NewsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057BA27DCACDB00BE102F /* NewsResponseModel.swift */; };
+		AD0057BE27DCADBD00BE102F /* NewsSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0057BD27DCADBD00BE102F /* NewsSearchManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		AD0057B127DA29D800BE102F /* NewsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewCell.swift; sourceTree = "<group>"; };
 		AD0057B327DAA2BC00BE102F /* NewsListTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewHeaderView.swift; sourceTree = "<group>"; };
 		AD0057B527DCA81700BE102F /* NewsWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWebViewController.swift; sourceTree = "<group>"; };
+		AD0057B827DCACD100BE102F /* NewsRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRequestModel.swift; sourceTree = "<group>"; };
+		AD0057BA27DCACDB00BE102F /* NewsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponseModel.swift; sourceTree = "<group>"; };
+		AD0057BD27DCADBD00BE102F /* NewsSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSearchManager.swift; sourceTree = "<group>"; };
 		EB8BEA7222019EF1A6AE0A5A /* Pods_KeywordNews_KeywordNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeywordNews_KeywordNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16D69896A66208731FFE54C /* Pods-KeywordNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeywordNews.release.xcconfig"; path = "Target Support Files/Pods-KeywordNews/Pods-KeywordNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +150,8 @@
 			children = (
 				AD00577427DA17CA00BE102F /* AppDelegate.swift */,
 				AD00577627DA17CA00BE102F /* SceneDelegate.swift */,
+				AD0057BF27DCADC600BE102F /* Managers */,
+				AD0057BC27DCACDF00BE102F /* Models */,
 				AD0057AB27DA25B200BE102F /* Scenes */,
 				AD00577D27DA17CB00BE102F /* Assets.xcassets */,
 				AD00577F27DA17CB00BE102F /* LaunchScreen.storyboard */,
@@ -195,6 +203,23 @@
 				AD0057B527DCA81700BE102F /* NewsWebViewController.swift */,
 			);
 			path = NewsWeb;
+			sourceTree = "<group>";
+		};
+		AD0057BC27DCACDF00BE102F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD0057B827DCACD100BE102F /* NewsRequestModel.swift */,
+				AD0057BA27DCACDB00BE102F /* NewsResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD0057BF27DCADC600BE102F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AD0057BD27DCADBD00BE102F /* NewsSearchManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		E62E3AD288F7283AD73C6E5C /* Frameworks */ = {
@@ -473,9 +498,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0057B927DCACD100BE102F /* NewsRequestModel.swift in Sources */,
 				AD00577927DA17CA00BE102F /* NewsListViewController.swift in Sources */,
 				AD0057B227DA29D800BE102F /* NewsListTableViewCell.swift in Sources */,
 				AD0057B427DAA2BC00BE102F /* NewsListTableViewHeaderView.swift in Sources */,
+				AD0057BE27DCADBD00BE102F /* NewsSearchManager.swift in Sources */,
+				AD0057BB27DCACDB00BE102F /* NewsResponseModel.swift in Sources */,
 				AD00577527DA17CA00BE102F /* AppDelegate.swift in Sources */,
 				AD0057B627DCA81700BE102F /* NewsWebViewController.swift in Sources */,
 				AD00577727DA17CA00BE102F /* SceneDelegate.swift in Sources */,

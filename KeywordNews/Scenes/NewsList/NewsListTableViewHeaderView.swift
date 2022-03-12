@@ -54,17 +54,20 @@ private extension NewsListTableViewHeaderView {
         tagCollectionView.selectionLimit = 1
         
         let insetValue: CGFloat = 16.0
+        
         tagCollectionView.contentInset = UIEdgeInsets(
             top: insetValue,
             left: insetValue,
             bottom: insetValue,
             right: insetValue
         )
+        
         let cornerRadiusValue: CGFloat = 12.0
         let shadowOpacity: CGFloat = 0.0
         let extraSpace = CGSize(width: 20.0, height: 12.0)
         let color = UIColor.systemOrange
         let style = TTGTextTagStyle()
+        
         style.backgroundColor = color
         style.cornerRadius = cornerRadiusValue
         style.borderWidth = 0.0
@@ -72,11 +75,13 @@ private extension NewsListTableViewHeaderView {
         style.extraSpace = extraSpace
         
         let selectedStyle = TTGTextTagStyle()
+        
         selectedStyle.backgroundColor = .white
         selectedStyle.cornerRadius = cornerRadiusValue
         selectedStyle.shadowOpacity = shadowOpacity
         selectedStyle.extraSpace = extraSpace
         selectedStyle.borderColor = color
+        
         tags.forEach {
             let font = UIFont.systemFont(ofSize: 14.0, weight: .semibold)
             
@@ -97,6 +102,7 @@ private extension NewsListTableViewHeaderView {
                 selectedContent: selectedTagContents,
                 selectedStyle: selectedStyle
             )
+            
             tagCollectionView.addTag(tag)
         }
     }

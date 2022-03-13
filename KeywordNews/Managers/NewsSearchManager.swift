@@ -27,6 +27,8 @@ struct NewsSearchManager: NewsSearchManagerProtocol {
         guard let url = URL(string: "https://openapi.naver.com/v1/search/news.json") else { return }
         let parameters = NewsRequestModel(query: keyword, start: start, display: display)
         
+        let clientID = "1wR78DpgaLA9VggcyxHq"
+        let clientSecret = "52vR9rxySJ"
         
         let headers: HTTPHeaders = [
             "X-Naver-Client-Id": clientID,
